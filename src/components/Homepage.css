@@ -1,12 +1,12 @@
-.container{
+.Homepage .container{
     max-width: 100%;
 }
-.title{
+.Homepage .title{
     font-size:72px;
     padding-top:50px;
     z-index: 0;
 }
-.strikethrough{
+.Homepage .strikethrough{
     color:#6EC1FF;
     font-size:50px;
     font-weight:900;
@@ -15,11 +15,13 @@
     left:-33px;
 }
 
-.tagline{
+.Homepage .tagline{
     font-size:64px;
     padding-top:66px;
+    position:relative;
+    left:-66px;
 }
-.shoptag{
+.Homepage .shoptag{
     padding-top:133px;
     padding-left:111px;
     z-index: 1;
@@ -28,19 +30,20 @@
     background-color: #f88d8d;
     max-width: 100%;
 }
-.bears{
+.Homepage .bears{
     position:relative;
     top:-166px;
     left:-50px;
 }
-.Vector{
+.Homepage .Vector{
     position:relative;
     top:-88px;
 }
-a{
+.Homepage a{
     background-color: #98C800;
-    padding:22px 40px;
-    border-radius:33px;
+    padding:33px 50px;
+    font-size: 28px;
+    border-radius:55px;
     text-decoration: none;
     color:black;
     font-weight:500;
