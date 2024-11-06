@@ -1,0 +1,48 @@
+.container{
+    max-width: 100%;
+}
+.title{
+    font-size:72px;
+    padding-top:50px;
+    z-index: 0;
+}
+.strikethrough{
+    color:#6EC1FF;
+    font-size:50px;
+    font-weight:900;
+    position:absolute;
+    padding-top:66px;
+    left:-33px;
+}
+
+.tagline{
+    font-size:64px;
+    padding-top:66px;
+}
+.shoptag{
+    padding-top:133px;
+    padding-left:111px;
+    z-index: 1;
+}
+.Homepage{
+    background-color: #f88d8d;
+    max-width: 100%;
+}
+.bears{
+    position:relative;
+    top:-166px;
+    left:-50px;
+}
+.Vector{
+    position:relative;
+    top:-88px;
+}
+a{
+    background-color: #98C800;
+    padding:22px 40px;
+    border-radius:33px;
+    text-decoration: none;
+    color:black;
+    font-weight:500;
+    filter: drop-shadow(-6px 10px 0px #FDFF96);
+}
