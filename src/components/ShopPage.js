@@ -8,8 +8,8 @@ const ShopPage = () => {
         <div className="ShopPage">
         <div className="shopPic">
             <div className="ediblesButton"><a href="/">SHOP EDIBLES</a></div>
-                        <img src={plate} alt="cookies" className="plateImg"/>
             <div className="smokeButton"><a href="/">SHOP SMOKEABLES</a></div>
+                        <img src={plate} alt="cookies" className="plateImg"/>
                     </div>
                 </div>
     )

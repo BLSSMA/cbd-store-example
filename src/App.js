@@ -1,5 +1,6 @@
 import Homepage from "./components/Homepage";
 import ShopPage from "./components/ShopPage";
+import Collage from "./components/Collage";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
         <Homepage />
         <ShopPage />
+        <Collage />
     </div>
   );
 }

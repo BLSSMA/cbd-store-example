@@ -2,7 +2,7 @@
 .ShopPage .plateImg{
 object-fit:cover ;
 width:100%;
-height:auto;
+height:999px;
 }
 .ediblesButton a, .smokeButton a{
     font-size: 42px;
@@ -13,15 +13,15 @@ height:auto;
 .ediblesButton{
     margin-top:35px;
     position:absolute;
-    left:366px;
+    left:444px;
     background-color:#98C800;  
-    padding:0 60px 6px 5px;    
+    padding:0 66px 6px 5px;    
 }
 .smokeButton{
     position:absolute;
     background-color: #FDFF96;
     padding:0 5px 6px 60px;
     left:666px;
-
+    margin-top:888px;
 }
 
