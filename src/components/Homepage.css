@@ -1,5 +1,6 @@
 .Homepage .container{
     width: 100%;
+    padding-bottom:40px;
 }
 .Homepage .title{
     font-size:72px;
@@ -48,4 +49,44 @@
     color:black;
     font-weight:500;
     filter: drop-shadow(-6px 10px 0px #FDFF96);
+}
+
+@media (width < 1020px) {
+    .Homepage img{
+        display:flex;
+        width:100%;
+        margin:0 auto;
+        padding:0;
+        align-items: center;
+    }
+    .Homepage .Vector{
+        display:none;
+    }
+    .Homepage .tagline, .Homepage .bears{
+        left:0;
+    }
+    .Homepage .title {
+        font-size: 44px;
+        padding-top: 10px;
+        line-height:1.25;
+        margin-bottom:33px;
+    }
+    .Homepage .strikethrough {
+        font-size: 20px;
+        text-align: center;
+        padding-top:99px;
+    }
+    .Homepage .shoptag {
+        display:none;
+    }
+    .Homepage .bears{
+        top:0;
+        left:0;
+        padding:55px 33px 22px 33px;
+    }
+    .Homepage a{
+        padding: 11px 30px;
+        font-size: 26px;
+        
+    }
 }
