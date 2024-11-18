@@ -1,0 +1,11 @@
+.Footer{
+    background-color: #feffbf;
+    height:155px;
+    align-content: space-around;
+}
+.Footer .instagram{
+    padding:0 100px;
+}
+.Footer .icons{
+    opacity:0.6;
+}

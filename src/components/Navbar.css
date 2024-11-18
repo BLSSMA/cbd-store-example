@@ -1,0 +1,9 @@
+.navbar{
+    background-color: rgb(255, 250, 240);
+}
+.navbar .navbar-brand{
+    font-size:22px;
+}
+.navbar button{
+    font-size:22px;
+}

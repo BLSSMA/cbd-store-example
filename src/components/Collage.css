@@ -1,9 +1,6 @@
 .Collage{
     background-color:#6EC1FF;
-    max-width:100%;
-}
-.Collage .col-6{
-    max-width:100%;
+
 }
 .Collage .container{
     padding:0;
@@ -33,15 +30,11 @@
     top:-300px;
 }
 .Collage .tinctureImg{
-    position:absolute;
-    left:550px;
-    right:0;
-    margin-top:55px;
-
-    height:666px;
-    width:auto;
-
-
+    position:relative;
+    left:-222px;
+    margin-top:88px;
+    object-fit:contain;
+    width:1000px;
 }
 .Collage a{
     font-size: 42px;
