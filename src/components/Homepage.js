@@ -37,7 +37,7 @@ return(
                     <div className="col-md-8 Vector">
                         <img src={Vector} alt="curly arrow"/>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-4"  id="shopPage">
                         <a href="/">SHOP</a>
                     </div>
                 </div>

@@ -12,17 +12,17 @@ const Collage = () => {
             <div className="container">
             <div className="grid">
                 <div className="row">
-                    <div className="col-12 clothImg">
+                    <div className="col-md-12 clothImg">
                         <img src={cloth} alt="cloth" className="cloth"/>
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-6">
+                    <div className="col-md-6 tableCol">
                         <img src={table} alt="table" className="table"/>
                     </div>
-                    <div className="col-6">
+                    <div className="col-md-6 tinctPlusButton">
                     <div className="row productButton">                        
-                             <a href="/" alt="home">MEET OUR PRODUCTS</a>
+                             <a href="/" alt="home" id="collage">MEET OUR PRODUCTS</a>
                         </div>
                         <div className="row tincture">
                         <img src={tincture} alt="tincture" className="tinctureImg" />

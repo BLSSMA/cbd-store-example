@@ -1,18 +1,16 @@
 .Collage{
     background-color:#6EC1FF;
-
 }
 .Collage .container{
     padding:0;
     margin:0;
-    max-width:100%;
+   max-width:100%;
 }
 .Collage .clothImg{
     width:100%;  
     padding:0;
     object-fit: cover;
 }
-
 .Collage .cloth {
     object-fit: cover;
     width: 100%;
@@ -46,9 +44,38 @@
     text-align: start;
     margin:0;
     width:fit-content;
-
-
 }
 .Collage .productButton{
 padding-top:66px;
+}
+
+@media (width < 1020px) {
+    .Collage{
+        padding-bottom:50px;
+    }
+    .Collage .table {
+        display: flex;
+        left: 0;
+        width:333px;
+        margin:0 auto;
+    }
+    .Collage .tinctureImg {
+        left: 0;
+        display:block;
+        margin-top:18px;
+        }
+        .Collage .tinctPlusButton{
+            width:100%;
+        }
+    .Collage .productButton{
+        padding:0;
+    }
+        .Collage a {
+            font-size: 28px;
+            padding: 0 10px 6px 30px;
+            margin:0 auto;
+        }
+    .Collage .tableCol{
+        height:222px;
+    }
 }
